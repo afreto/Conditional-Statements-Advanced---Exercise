@@ -5,7 +5,7 @@ namespace _05._Journey
     class Program
     {
         static void Main()
-        {
+        { 
             double budget = double.Parse(Console.ReadLine());
             string season = Console.ReadLine();
             string destination = "";

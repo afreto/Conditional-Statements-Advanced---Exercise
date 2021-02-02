@@ -5,7 +5,7 @@ namespace _02._Summer_Outfit
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             int degrees = int.Parse(Console.ReadLine());
             string timeOfDay = Console.ReadLine();
             string outfit = "";

@@ -6,19 +6,15 @@ namespace _08._On_Time_for_the_Exam
     {
         static void Main()
         {
-
             int examHour = int.Parse(Console.ReadLine());
             int examMinutes = int.Parse(Console.ReadLine());
             int arrivalHour = int.Parse(Console.ReadLine());
             int arrivalMinutes = int.Parse(Console.ReadLine());
-
             int totalExamMinutes = examHour * 60 + examMinutes;
             int totalArrivalMinutes = arrivalHour * 60 + arrivalMinutes;
             int difference = totalArrivalMinutes - totalExamMinutes;
-
             int differenceTimeHour = Math.Abs(difference) / 60;
             int differenceTimeMinutes = Math.Abs(difference) % 60;
-
             if (difference > 0)
             {
                 Console.WriteLine("Late");
@@ -51,8 +47,6 @@ namespace _08._On_Time_for_the_Exam
             }
             else if (difference == 0)
                 Console.WriteLine("On time");
-
-
         }
     }
 }

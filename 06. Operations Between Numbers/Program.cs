@@ -58,7 +58,7 @@ namespace _06._Operations_Between_Numbers
                                 break;
                         }
                     }
-                    break;
+                    break; 
             }
         }
     }

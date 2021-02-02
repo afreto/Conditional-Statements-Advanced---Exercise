@@ -10,7 +10,6 @@ namespace _01._Cinema
             int r = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             double ticketPrice = 0;
-
             switch (type)
             {
                 case "Premiere":

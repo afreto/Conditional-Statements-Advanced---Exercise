@@ -9,12 +9,9 @@ namespace _9._Volleyball
             string yearType = Console.ReadLine();
             int holidays = int.Parse(Console.ReadLine());
             int h = int.Parse(Console.ReadLine());
-
             double sofiaSaturdays = (48 - h) * (double)3 / 4;
             double saturdays = (holidays * (double)2 / 3);
-
             double total = sofiaSaturdays + h + saturdays;
-
             switch (yearType)
             {
                 case "leap":

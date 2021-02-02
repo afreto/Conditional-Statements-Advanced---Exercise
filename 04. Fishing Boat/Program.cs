@@ -6,13 +6,11 @@ namespace _04._Fishing_Boat
     {
         static void Main()
         {
-
             int budget = int.Parse(Console.ReadLine());
             string season = Console.ReadLine();
             int numOfFishermen = int.Parse(Console.ReadLine());
             double discount = 0;
             int rent = 0;
-
             switch (season)
             {
                 case "Spring":
@@ -34,7 +32,7 @@ namespace _04._Fishing_Boat
             {
                 discount = rent * 0.15;
             }
-            else if (numOfFishermen >=12)
+            else if (numOfFishermen >= 12)
             {
                 discount = rent * 0.25;
             }
@@ -53,8 +51,6 @@ namespace _04._Fishing_Boat
             {
                 Console.WriteLine($"Not enough money! You need {(totalSum - budget):f2} leva.");
             }
-
-
         }
     }
 }

@@ -5,7 +5,7 @@ namespace _03._New_House
     class Program
     {
         static void Main()
-        {
+        { 
             string flower = Console.ReadLine();
             int numOfFlower = int.Parse(Console.ReadLine());
             double budget = double.Parse(Console.ReadLine());
